@@ -27,5 +27,5 @@ npm start
 ```
 # Screenshots 
 
-![console print binary tree](https://raw.githubusercontent.com/samyBadjoudj/binary-tree-printer-react-client/blob/master/client_binary_tree_web.png)
+![console print binary tree](https://raw.githubusercontent.com/samyBadjoudj/binary-tree-printer-react-client/master/client_binary_tree_web.png)
 
