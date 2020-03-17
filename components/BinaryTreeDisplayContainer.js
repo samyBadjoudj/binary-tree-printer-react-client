@@ -19,7 +19,7 @@ class BinaryTreeDisplayContainer extends Component {
       </button>
       <input type='text' name='binaryTreePattern' value={this.props.binaryTreePattern} 
                   onChange={(e)=>this.props.binaryTreePatternValueChanged(e.target.value)} ></input>
-                  <span> ex:4(2(3)(1))(6(5)(9))</span>
+                  <span>ex: 4(2(3)(1))(6(5)(7(9)))</span>
       <hr />
       <button onClick={()=>this.props.sendComaSeparatedValue(this.props.commaSepValue)}>
         Get Binary tree from server with pattern
