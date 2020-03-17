@@ -29,7 +29,7 @@ class BinaryTreeDisplayContainer extends Component {
       <hr />
       <div>
         {/*Here can be an XSS attack, just for example purpose*/}
-        <div dangerouslySetInnerHTML={{ __html: this.props.htmlContent }} />
+        <div><pre>{this.props.htmlContent}</pre></div> 
       </div>
     </div>
 
